@@ -1,0 +1,40 @@
+body {
+    background-color:khaki
+}
+
+h1 {
+    color: royalblue;
+    text-align: center;
+    
+}
+
+.choices {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+
+.orders {
+    margin-top: 30px;
+    text-align: center;
+    
+}
+
+#saveSubmission {
+    padding: 10px 20px ;
+    color: gainsboro;
+    font-size: 50px;
+    background: rgb(30,79,164);
+    border-radius: 50px;
+    box-shadow: 0px 0px 32px 0px #000000;
+}
+
+#saveSubmission:hover {
+    background: rgb(109, 14, 34); }
+
+.button {
+    text-align: center;
+}

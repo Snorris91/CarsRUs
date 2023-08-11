@@ -1,0 +1,141 @@
+{
+  "paints": [
+    {
+      "id": 1,
+      "color": "Silver",
+      "price": 350
+    },
+    {
+      "id": 2,
+      "color": "Midnight Blue",
+      "price": 400
+    },
+    {
+      "id": 3,
+      "color": "Firebrick Red",
+      "price": 600
+    },
+    {
+      "id": 4,
+      "color": "Spring Green",
+      "price": 100
+    }
+  ],
+  "interiors": [
+    {
+      "id": 1,
+      "type": "Beige Fabric",
+      "price": 250
+    },
+    {
+      "id": 2,
+      "type": "Charcoal Fabric",
+      "price": 350
+    },
+    {
+      "id": 3,
+      "type": "White Leather",
+      "price": 500
+    },
+    {
+      "id": 4,
+      "type": "Black Leather",
+      "price": 600
+    }
+  ],
+  "packages": [
+    {
+      "id": 1,
+      "pack": "Basic Package (basic sound system)",
+      "price": 100
+    },
+    {
+      "id": 2,
+      "pack": "Navigation Package (includes integrated navigation controls)",
+      "price": 200
+    },
+    {
+      "id": 3,
+      "pack": "Visibility Package (includes side and reat cameras)",
+      "price": 500
+    },
+    {
+      "id": 4,
+      "pack": "Ultra Package (includes navigation and visibility packages)",
+      "price": 800
+    }
+  ],
+  "wheels": [
+    {
+      "id": 1,
+      "wheel": "17-inch Pair Radial",
+      "price": 400
+    },
+    {
+      "id": 2,
+      "wheel": "17-inch Pair Radial Black",
+      "price": 500
+    },
+    {
+      "id": 3,
+      "wheel": "18-inch Pair Spoke Silver",
+      "price": 800
+    },
+    {
+      "id": 4,
+      "wheel": "18-inch Pair Spoke Black",
+      "price": 900
+    }
+  ],
+  "orders": [
+    {
+      "wheelId": 3,
+      "interiorId": 3,
+      "paintId": 2,
+      "packageId": 4,
+      "id": 1
+    },
+    {
+      "wheelId": 1,
+      "interiorId": 4,
+      "paintId": 2,
+      "packageId": 2,
+      "id": 2
+    },
+    {
+      "wheelId": 3,
+      "interiorId": 3,
+      "paintId": 2,
+      "packageId": 4,
+      "id": 3
+    },
+    {
+      "wheelId": 3,
+      "interiorId": 3,
+      "paintId": 4,
+      "packageId": 4,
+      "id": 4
+    },
+    {
+      "wheelId": 2,
+      "interiorId": 4,
+      "paintId": 1,
+      "packageId": 3,
+      "id": 5
+    },
+    {
+      "wheelId": 4,
+      "interiorId": 2,
+      "paintId": 3,
+      "packageId": 4,
+      "id": 6
+    },
+    {
+      "wheelId": 4,
+      "interiorId": 4,
+      "paintId": 3,
+      "packageId": 4,
+      "id": 7
+    }
+  ]
+}
