@@ -1,6 +1,7 @@
 import { InteriorOptions } from "./Interior.js"
 import { PackageOption } from "./Packages.js"
 import { PaintOptions } from "./Paints.js"
+import { modelOptions } from "./models.js"
 import { SaveOrder } from "./Submission.js"
 import { WheelOptions } from "./Wheels.js"
 import { CurrentOrders } from "./orders.js"
@@ -16,6 +17,7 @@ const render = async () => {
     const packageHtml = await PackageOption()
     const paintHtml = await PaintOptions()
     const wheelHtml = await WheelOptions()
+    const modelHTML = await modelOptions()
     const orderButton = await SaveOrder()
     const orders = await CurrentOrders()
 
@@ -36,6 +38,10 @@ const render = async () => {
     <section class="interiors">
     <h1>Packages</h1>
     ${packageHtml}
+    </section>
+    <section class="models">
+    <h1>Models</h1>
+    ${modelHTML}
     </section>
     </article>
     

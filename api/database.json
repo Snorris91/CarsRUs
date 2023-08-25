@@ -87,55 +87,47 @@
       "price": 900
     }
   ],
+  "types": [
+    {
+      "id": 1,
+      "type": "Sedan",
+      "multiplier": 1
+    },
+    {
+      "id": 2,
+      "type": "SUV",
+      "multiplier": 1.5
+    },
+    {
+      "id": 3,
+      "type": "Truck",
+      "multiplier": 2.25
+    }
+  ],
   "orders": [
     {
-      "wheelId": 3,
-      "interiorId": 3,
-      "paintId": 2,
-      "packageId": 4,
+      "wheelId": 1,
+      "interiorId": 2,
+      "paintId": 4,
+      "packageId": 2,
+      "typeId": 3,
       "id": 1
     },
     {
       "wheelId": 1,
-      "interiorId": 4,
-      "paintId": 2,
-      "packageId": 2,
+      "interiorId": 1,
+      "paintId": 1,
+      "packageId": 1,
+      "typeId": 1,
       "id": 2
     },
     {
-      "wheelId": 3,
-      "interiorId": 3,
-      "paintId": 2,
-      "packageId": 4,
-      "id": 3
-    },
-    {
-      "wheelId": 3,
-      "interiorId": 3,
-      "paintId": 4,
-      "packageId": 4,
-      "id": 4
-    },
-    {
-      "wheelId": 2,
-      "interiorId": 4,
+      "wheelId": 1,
+      "interiorId": 1,
       "paintId": 1,
-      "packageId": 3,
-      "id": 5
-    },
-    {
-      "wheelId": 4,
-      "interiorId": 2,
-      "paintId": 3,
-      "packageId": 4,
-      "id": 6
-    },
-    {
-      "wheelId": 4,
-      "interiorId": 4,
-      "paintId": 3,
-      "packageId": 4,
-      "id": 7
+      "packageId": 1,
+      "typeId": 3,
+      "id": 3
     }
   ]
 }
